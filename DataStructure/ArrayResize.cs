@@ -22,19 +22,15 @@ namespace DataStructure
 
                 }
 
-                if (numbers.Length - 1 == -1)
+                Console.Write($"Number[{count}]: ");
+                numbers[count] = Convert.ToInt32(Console.ReadLine());
+                count++;
+
+                if (numbers[count - 1] == -1)
                 {
                     break;
                 }
             }
-
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                Console.Write($"Number[{i}]: ");
-                numbers[i] = Convert.ToInt32(Console.ReadLine());
-                count++;
-            }      
-
             return numbers;
         }
     }

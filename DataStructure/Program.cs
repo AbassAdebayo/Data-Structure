@@ -44,12 +44,12 @@ using DataStructure;
 //    }
 //}
 
-var studentsScore = new Dictionary<string, Dictionary<string, double>>
-{
-    { "Bilal", new Dictionary<string, double> {{"Math", 90 }, {"Eng", 79},{"Chem", 88.7} }},
-    {"Ade", new Dictionary<string, double> { {"Math", 90 }, {"Eng", 89.7 }, { "Chem", 88.6} } },
-    {"Bimpe", new Dictionary<string, double> { { "Math", 70 }, {"Eng", 67.0}, { "Chem", 78.5 } } }
-};
+//var studentsScore = new Dictionary<string, Dictionary<string, double>>
+//{
+//    { "Bilal", new Dictionary<string, double> {{"Math", 90 }, {"Eng", 79},{"Chem", 88.7} }},
+//    {"Ade", new Dictionary<string, double> { {"Math", 90 }, {"Eng", 89.7 }, { "Chem", 88.6} } },
+//    {"Bimpe", new Dictionary<string, double> { { "Math", 70 }, {"Eng", 67.0}, { "Chem", 78.5 } } }
+//};
 
 //studentsScore.Add("Bilal", new Dictionary<string, double>
 //{
@@ -83,10 +83,8 @@ var studentsScore = new Dictionary<string, Dictionary<string, double>>
 //    }
 //}
 
-Stacking<int> stacks = new Stacking<int>();
+int[] numbers = new int[5];
+ArrayResize arrayResize = new ArrayResize();
 
-stacks.Enqueue(8);
-stacks.Enqueue(9);
-
-Console.WriteLine(string.Join("", stacks.Dequeue()));
+arrayResize.ResizeArray(numbers);
 
