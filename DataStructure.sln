@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure\DataStructure.csproj", "{31D4F25A-50CC-496E-95FA-CCD5A406D329}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31D4F25A-50CC-496E-95FA-CCD5A406D329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D4F25A-50CC-496E-95FA-CCD5A406D329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D4F25A-50CC-496E-95FA-CCD5A406D329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D4F25A-50CC-496E-95FA-CCD5A406D329}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB4EF99A-2876-4620-A822-51E40505D641}
+	EndGlobalSection
+EndGlobal
