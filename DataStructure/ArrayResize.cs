@@ -31,7 +31,7 @@ namespace DataStructure
                     break;
                 }
             }
-            return numbers;
+            return number;
         }
     }
 }
